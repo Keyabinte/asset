@@ -141,3 +141,83 @@
     </div>
     <img src="https://i.ibb.co/wKbdqTK/avatar.png" alt="review" />
   </div>
+  <div class="contact">
+    <div>
+      <h2>Let's Get in Touch</h2>
+    </div>
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Your name" />
+      <label>Email</label>
+      <input type="email" placeholder="Your email" />
+      <label>Message</label>
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Get in Touch</button>
+    </form>
+  </div>
+
+  <footer>
+    <h2>SimpleSite</h2>
+    <p>Helping you stay focused every day.</p>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">How it works</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+  </footer>
+
+  </body>
+</html>
+
+  <style>
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+    }
+    .contact input,
+    .contact textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact button {
+      padding: 10px;
+      background: #3366ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .contact button:hover {
+      background: #0033cc;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
